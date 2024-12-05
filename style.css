@@ -1,4 +1,4 @@
-/*Main page */
+/*Main page------------------------------------------------- */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +15,7 @@ a{
     text-decoration: none;
     margin-right: 6rem;
     color: #444;
+    font-size: 1.2rem;
 }
 
 #navbar{
@@ -72,3 +73,114 @@ footer ul a{
     text-decoration: none;
     color: white;
 }
+
+
+/*Experiences page-------------------------------------------------------------- */
+
+#image-experiences{
+    position: relative;
+    text-align: center;
+}
+
+#main-image-experiences{
+    width: 100%;
+    position: relative;
+}
+
+#center-image-text{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    font-size: 3.5rem;
+    color: plum;
+}
+
+#xp-section2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+
+}
+#xp-section2 h2{
+    font-size: 2rem;
+    color: lightblue;
+    padding: 2rem 4rem;
+}
+
+.articles{
+    width: 300px;
+    height: 220px;
+    position: relative;
+}
+
+.articles h3{
+    font-weight: lighter;
+    color: rgb(87, 177, 207);
+    border: 1px solid lightblue;   
+}
+
+.articles-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    text-align: center;
+    gap: 1rem;
+}
+
+.articles img{
+    width: 100%;
+    height: 80%;
+}
+
+.overlay{
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    opacity: 0;
+}
+.articles:hover .overlay{
+    opacity: 1;
+    background: rgb(145, 145, 255);
+    transform: scale(1.3);
+    transform-origin: center center;
+    transition: 500ms ease;
+    padding: 1rem;
+    border: 10px ridge lightblue;
+    z-index: 1000;
+    
+}
+
+.overlay p{
+    color: white;
+}
+
+.overlay .title{
+    background-color: white;
+    text-align: center;
+    color: rgb(2, 174, 232);
+    width: 100%;
+    margin-top: 0;
+}
+
+i{
+    border:1px solid white;
+    border-radius:50%;
+    padding: .5rem;
+}
+.fa-facebook{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem .75rem;
+}
+
+    
