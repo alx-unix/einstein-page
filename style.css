@@ -88,18 +88,20 @@ footer ul a{
 #image-experiences{
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 #main-image-experiences{
     width: 100%;
     position: relative;
+    filter: hue-rotate(190deg);
 }
 
 #center-image-text{
     position: absolute;
     left: 35%;
     top: 25%;
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: plum;
 }
 
@@ -114,7 +116,7 @@ footer ul a{
 }
 #xp-section2 h2{
     font-size: 2rem;
-    color: lightblue;
+    color: rgb(128, 115, 238); 
     padding: 2rem 4rem;
 }
 
@@ -126,8 +128,8 @@ footer ul a{
 
 .articles h3{
     font-weight: lighter;
-    color: rgb(87, 177, 207);
-    border: 1px solid lightblue;   
+    color: rgb(128, 115, 238); 
+    border: 1px solid rgb(191, 186, 239);   
 }
 
 .articles-container{
@@ -163,7 +165,7 @@ footer ul a{
     transform-origin: center center;
     transition: 500ms ease;
     padding: 1rem;
-    border: 10px ridge lightblue;
+    border: 10px ridge rgb(191, 186, 239); 
     z-index: 1000;
     
 }
