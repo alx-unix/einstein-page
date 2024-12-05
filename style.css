@@ -1,0 +1,74 @@
+/*Main page */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 6rem;
+    color: #444;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#main-section1{
+    background-color: rgb(0, 0, 85);
+    color:white;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+    height: 15rem;
+    font-size: 1.2rem;
+}
+
+#main-section1-text{
+    margin-right: 5rem;
+}
+
+#section1-title, #name {
+    color: lightblue
+}
+
+#main-section2{
+    display: flex;
+    text-align: center;
+    margin: 3rem 8rem;
+    gap: 1rem;
+}
+
+.biographie{
+    height: 620px;
+    text-overflow: ellipsis;
+    overflow: scroll;
+}
+
+
+#biographie-paragraph{
+    text-align: justify;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 0, 85);
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+}
