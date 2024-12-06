@@ -324,10 +324,12 @@ button{
 }
 
 hr{
-    width: 15%;
+    width: 12%;
     height:2px;
     color: white;
     background-color: white;
+    margin-left:2rem;
+    margin-bottom: auto;
 }
 
 
