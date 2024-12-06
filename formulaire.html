@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body id="body-de-form">
     <header>
         <nav>
             <ul id="navbar">
@@ -16,14 +18,44 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <form action=""></form>
+    <main id="main-form">
+        <div class="contact-form-container">
+            <div class="form-head">
+                <div class="circles" id="crc1"></div>
+                <div class="circles" id="crc2"></div>
+                <div class="circles" id="crc3"></div>
+                <div class="points">...</div>
+            </div>
+            <div class="form-body">
+                <div class="left">
+                    <h1>CONTACTEZ <br> NOUS <hr></h1>
+                    
+                    <p>CONTACTINFO: +33 00 00 00 00 00</p>
+                </div>
+                <div class="right">
+                    <form action="">
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="NAME">
+
+                        <label for="email"></label>
+                        <input type="email" placeholder="EMAIL">
+
+                        <label for="contact"></label>
+                        <input type="tel" placeholder="CONTACT">
+
+                        <textarea name="message" id="message" placeholder="MESSAGE" rows="1" cols="25"></textarea>
+                        <button type="submit">ENVOYER</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
     </main>
     <footer>
         <ul>
-            <li><a href="https://www.x.com">X</a></li>
-            <li><a href="https://www.facebook.com">Fb</a></li>
-            <li><a href="https://www.linkedin.com"> In</a></li>
+            <li><a href="https://www.x.com"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
         </ul>
     </footer>
 </body>

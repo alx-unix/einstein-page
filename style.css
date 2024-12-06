@@ -54,7 +54,7 @@ main {
     display: flex;
     text-align: center;
     gap: 1rem;
-    width: 60%;
+    width: 50%;
     margin: 3rem 0;
 }
 
@@ -193,4 +193,141 @@ i{
     padding: .5rem .75rem;
 }
 
-    
+
+/* Formulaire ------------------------------------------------------------------------------------- */
+
+#body-de-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#main-form{
+    height: 100%;
+    background-color:rgb(71, 26, 157);
+}
+
+.contact-form-container{
+    width: 550px;
+    height: 450px;
+}
+
+.form-head{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(44, 11, 162);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+
+
+.form-body{
+    background-color: rgb(1, 1, 95);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+}
+form{
+    margin-top: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+input{
+    margin: .5rem 3rem;
+    border-style: none;
+    padding: 1rem 0;
+    text-align:baseline;
+    background-color: rgb(1, 1, 95);
+    border-bottom:1px solid white;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+textarea{
+    margin: 3rem 3rem 0 3rem;
+    border-style: none;
+    padding: 1rem 0;
+    text-align:baseline;
+    background-color: rgb(1, 1, 95);
+    border-bottom:1px solid white;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+button{
+    width: 8rem;
+    margin-left: 1rem;
+    padding: .5rem 1.5rem;
+    border-style: none;
+    background-color: rgb(1, 1, 95);
+    color: rgb(84, 169, 255);
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.left h1{
+    color: white;
+    margin: 2rem 0 0 2rem;
+}
+
+.left p{
+    color: #777;
+    font-size: .5rem;
+    margin: 0 0 2rem 2rem;
+}
+
+.circles{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: red; 
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.points{
+    margin-left: auto;
+    margin-right: 1rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#crc1{
+    background-color: yellow;
+}
+
+#crc2{
+    background-color: lightgreen;
+}
+
+hr{
+    width: 15%;
+    height:2px;
+    color: white;
+    background-color: white;
+}
+
+
